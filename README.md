@@ -24,27 +24,34 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
-- [ ] What does AJAX stand for?
-> Answer:
-- [ ] What are `controlled components` in React?
-> Answer:
+- [x] Explain benefit(s) using `client-side routing`?
+
+> Answer: Client-side routing saves time because the whole page does not need to refresh. 
+
+
+- [x] What does AJAX stand for?
+
+> Answer: AJAX stands "Asynchronous JavaScript and XML."
+
+
+- [x] What are `controlled components` in React?
+
+> Answer: Controlled components maintain their own state and update based on user input.
 
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on GitHub.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on this branch, committing changes regularly.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on GitHub.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [x] Implement the project on this branch, committing changes regularly.
 - [ ] Push commits: `git push origin <firstName-lastName>`.
-- [ ] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
-- [ ] **RUN** `yarn start` or `npm start` to fire up your React application.
+- [x] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
+- [x] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
+- [x] **RUN** `yarn start` or `npm start` to fire up your React application.
 
 
 #### Exceeded rate limits?
@@ -104,12 +111,12 @@ Create 3 page components to display data from 3 API endpoints:
 
 ### Part 2
 
-Add a Router to this application using [React Router](https://reacttraining.com/react-router/web/guides/quick-start).
+[x] Add a Router to this application using [React Router](https://reacttraining.com/react-router/web/guides/quick-start).
 
 > **Tip:** Review the [examples on the React Router site.](https://reacttraining.com/react-router/web/guides/quick-start)
 
-- [ ] Declare your routes with `<Route>` components (for each component created above.)
-  - [ ] Include `/character`, `/location` and `/episode` routes.
+- [x] Declare your routes with `<Route>` components (for each component created above.)
+  - [x] Include `/character`, `/location` and `/episode` routes.
 - [ ] In your `App` component, add a navigation menu, [tab bar](https://react.semantic-ui.com/modules/tab/#types-basic), or similar. (Hint: Make sure to use React Routers `NavLink` to link to your different pages.)
 - [ ] If you have any `<a>` tags, replace them with `<Link>` or `<NavLink>` components.
 
